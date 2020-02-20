@@ -30,7 +30,7 @@ spec:
         timeout: 2m
         metadata:
           type: "helmv3"
-          cmd: "test run podinfo --cleanup"
+          cmd: "test run podinfo"
       - name: load-test
         url: http://load-tester.prod/
         metadata:
