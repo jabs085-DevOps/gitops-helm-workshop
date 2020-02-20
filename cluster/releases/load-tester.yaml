@@ -8,6 +8,7 @@ metadata:
     fluxcd.io/ignore: "false"
 spec:
   releaseName: load-tester
+  targetNamespace: prod
   timeout: 300
   chart:
     git: https://github.com/weaveworks/flagger
