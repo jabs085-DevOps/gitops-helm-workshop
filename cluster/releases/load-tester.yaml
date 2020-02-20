@@ -14,3 +14,5 @@ spec:
     repository: https://flagger.app
     name: loadtester
     version: 0.12.1
+  value:
+    fullnameOverride: load-tester
