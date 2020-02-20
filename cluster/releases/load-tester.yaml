@@ -6,7 +6,7 @@ metadata:
   annotations:
     fluxcd.io/ignore: "false"
 spec:
-  releaseName: load-tester
+  releaseName: loadtester
   chart:
     repository: https://flagger.app
     name: loadtester
