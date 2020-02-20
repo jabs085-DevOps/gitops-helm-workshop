@@ -9,9 +9,9 @@ spec:
   releaseName: helm-tester
   targetNamespace: prod
   chart:
-    git: git@github.com:weaveworks/flagger
-    ref: master
-    path: charts/loadtester
+    repository: https://flagger.app
+    name: loadtester
+    version: 0.12.1
   values:
     fullnameOverride: helm-tester
     serviceAccountName: helm-tester
