@@ -7,8 +7,10 @@ metadata:
     fluxcd.io/ignore: "false"
 spec:
   releaseName: loadtester
+  timeout: 300
   chart:
     repository: https://flagger.app
     name: loadtester
+    version:
   values:
     fullnameOverride: load-tester
