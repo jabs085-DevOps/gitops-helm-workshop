@@ -11,8 +11,5 @@ spec:
   targetNamespace: prod
   timeout: 300
   chart:
-    git: https://github.com/weaveworks/flagger
-    ref: 0.18.4
-    path: charts/loadtester
-  values:
-    fullnameOverride: load-tester
+    repository: https://flagger.app
+    name: loadtester
