@@ -6,11 +6,11 @@ metadata:
   annotations:
     fluxcd.io/ignore: "false"
 spec:
-  releaseName: loadtester
+  releaseName: load-tester
   timeout: 300
   chart:
-    repository: https://flagger.app
-    name: loadtester
-    version:
+    git: https://github.com/weaveworks/flagger
+    ref: master
+    path: charts/loadtester
   values:
     fullnameOverride: load-tester
