@@ -11,7 +11,7 @@ spec:
   timeout: 300
   chart:
     git: https://github.com/weaveworks/flagger
-    ref: master
+    ref: 0.18.4
     path: charts/loadtester
   values:
     fullnameOverride: load-tester
