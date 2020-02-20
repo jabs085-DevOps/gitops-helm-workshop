@@ -7,9 +7,10 @@ metadata:
     fluxcd.io/ignore: "false"
 spec:
   releaseName: helm-tester
+  targetNamespace: prod
   chart:
     git: git@github.com:weaveworks/flagger
-    ref: 0.18.4
+    ref: master
     path: charts/loadtester
   values:
     fullnameOverride: helm-tester
