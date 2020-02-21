@@ -13,7 +13,7 @@ spec:
   chart:
     git: git@github.com:jabs085-DevOps/gitops-helm-workshop
     ref: master
-    path: cluster/charts/podinfo
+    path: cluster/charts/ui
   values:
     image:
       repository: stefanprodan/podinfo
